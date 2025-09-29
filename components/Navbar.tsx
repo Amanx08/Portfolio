@@ -29,21 +29,23 @@ export default function Navbar() {
 				animate={hidden ? "hidden" : "vissible"}>
 				<div className="w-[50%]">
 					<Link href={"/"}>
-						<Image
+						{/* <Image
 							src={logo}
 							alt="ochi logo"
 							width={70}
 							height={70}
-						/>
+						/> */}
+
+						<h1 className="text-xl">AMAN</h1>
+
 					</Link>
 				</div>
 				<div className="flex gap-x-[20px] w-[50%]">
 					{navbarItems.map((item) => (
 						<Link
 							key={item.id}
-							className={`w-fit paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover ${
-								item.id === 5 && "ml-auto"
-							}`}
+							className={`w-fit paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover ${item.id === 5 && "ml-auto"
+								}`}
 							href={item.href}>
 							<TextHover
 								titile1={item.title}

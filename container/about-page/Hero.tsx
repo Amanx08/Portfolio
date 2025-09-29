@@ -14,7 +14,7 @@ export default function Hero() {
 					<div className="w-full margin padding-x">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-								WE ARE <br />
+								Hello!  I&apos;m a <br />
 								<div className="flex items-center gap-[5px]">
 									<motion.span
 										initial={{ width: 0 }}
@@ -33,7 +33,7 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										OCHI DESIGN
+										Full-Stack Developer
 									</h1>
 								</div>
 							</h1>
@@ -43,32 +43,23 @@ export default function Hero() {
 						<div className="w-full flex justify-between  padding-x sm:flex-col xm:flex-col gap-[20px]">
 							<div className="w-[10%] sm:w-full xm:w-full">
 								<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-									About us:
+									About me:
 								</h3>
 							</div>
 							<div className="w-[48%] flex justify-between sm:w-full xm:w-full sm:flex-col xm:flex-col gap-[20px]">
-								<div className="w-[50%] flex flex-col gap-y-[40px] sm:w-full xm:w-full">
+								<div className="w-[70%] flex flex-col gap-y-[40px] sm:w-full xm:w-full">
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-											In Ukrainian, ochi - means eyes. It&apos;s not
-											<br /> just a beautiful word, but our philosophy.
-											<br />
-											Almost everything that needs to be
-											<br /> communicated is better shown than <br />
-											explained.
+											Hello, my name is Aman. It's interesting because my name means "peace," but don&apos;t have peace in life.
+											Anyway, moving on to my background. I started my education focusing on science (Non-Medical stream), then got my college degree in Computer Applications. While studying, I also learned design. This combination of code and creativity is what I love.
+
+
 										</p>
 									</div>
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-											We believe a great presentation evokes
-											<br />
-											interest and drives business results far
-											<br /> better than any saying can. Hence, we
-											<br />
-											founded ochi to help you persuade
-											<br /> colleagues and clients by creating eye-
-											<br />
-											opening presentations.
+											I have over four years of experience in building and designing websites. I spent two years working at Branstr: one year as an intern and one year in a full-time job.
+											Now, I've decided to leave my job and become a freelance developer and designer. I'm ready to use my skills to help many different clients with their projects.
 										</p>
 									</div>
 								</div>
@@ -77,7 +68,7 @@ export default function Hero() {
 										<Link
 											href="/case"
 											className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
-											Our Work
+											Work
 										</Link>
 									</div>
 									<div className="w-[35px] flex items-center justify-center h-[35px] border border-[#21212199] rounded-[50px] p-[12px]  group-hover:bg-secondry transition-all duration-200 ease-in cursor-pointer sm:hidden xm:hidden">
@@ -99,8 +90,8 @@ export default function Hero() {
 			</div>
 			<div className="padding-x">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					We save businesses from ugly and
-					<br className="sm:hidden xm:hidden" /> ineffective presentations.
+					There's nothing more permanent than a temporary hack.
+					<br className="sm:hidden xm:hidden" />
 				</h1>
 			</div>
 		</section>

@@ -21,10 +21,10 @@ export default function Services() {
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heroservices />
-				<Process />
+				{/* <Archive /> */}
 				<Capibilyties />
+				<Process />
 				<Clientsservices />
-				<Archive />
 				<Expectations />
 				<Ready />
 			</Curve>

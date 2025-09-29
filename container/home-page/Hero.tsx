@@ -17,7 +17,7 @@ export default function Hero() {
 					<div className="w-full flex justify-between gap-[20px] pl-[50px] md:pl-[30px] sm:pl-[20px] xm:pl-[20px]">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-								we create <br />
+								Bringing  <br />
 								<div className="flex items-center gap-[5px]">
 									<motion.span
 										initial={{ width: 0 }}
@@ -37,13 +37,13 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										eye-opening
+										Ideas to Life 
 									</h1>
 								</div>
-								presentation
+								with Design and Code
 							</h1>
 						</div>
-						<div>
+						{/* <div>
 							<Image
 								src={awwwards}
 								alt="awwwards"
@@ -51,7 +51,7 @@ export default function Hero() {
 								height={60}
 								className="xm:hidden sm:hidden"
 							/>
-						</div>
+						</div> */}
 					</div>
 					<div className="w-full flex flex-col h-[22vh] border-t border-[#21212155] py-[20px] sm:mb-[80px] xm:mb-[80px] gap-[30px]">
 						<div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">

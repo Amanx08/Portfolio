@@ -30,13 +30,14 @@ export default function Ready() {
 					<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
 						<RoundButton
 							href="/contact"
-							title="start the project"
+							title="Contact me"
 							className="bg-white text-black"
 							bgcolor="#000"
 							style={{ color: "#fff" }}
 						/>
 					</div>
-					<p className="text-[20px] font-NeueMontreal text-secondry">OR</p>
+					
+					{/* <p className="text-[20px] font-NeueMontreal text-secondry">OR</p>
 					<div className="flex items-center justify-between bg-transparent cursor-pointer rounded-full group border border-[#212121]">
 						<Link
 							className="xl:text-[18px] xl:leading-[28px] text-[14px] leading-[24px] uppercase font-normal font-NeueMontreal"
@@ -56,7 +57,8 @@ export default function Ready() {
 								</div>
 							</Rounded>
 						</Link>
-					</div>
+					</div> */}
+
 				</div>
 			</div>
 			<motion.div

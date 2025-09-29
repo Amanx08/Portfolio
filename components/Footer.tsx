@@ -5,10 +5,10 @@ import { LinkHover, TextMask } from "@/animation";
 import { footerItems, footernavbarItems } from "@/constants";
 
 export default function Footer() {
-	const phrase = ["Eye-", "opening"];
-	const phrase1 = ["PRESENTATIONS"];
+	const phrase = ["A M", "A N"];
+	const phrase1 = ["Portfolio"];
 	return (
-		<footer className="w-full min-h-screen padding-x z-30 relative pt-[40px] bg-background flex flex-col justify-between rounded-t-[20px] mt-[-20px]">
+		<footer className="w-full padding-x z-30 relative pt-[40px] bg-background flex flex-col justify-between rounded-t-[20px] mt-[-20px]">
 			<div className="w-full flex justify-between sm:flex-col xm:flex-col">
 				<div className="flex flex-col justify-between sm:w-full xm:w-full w-1/2">
 					<h1 className="text-[150px] leading-[115px] lg:text-[130px] lg:leading-[98px] md:text-[100px] md:leading-[75px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] font-semibold font-FoundersGrotesk text-secondry uppercase">
@@ -20,7 +20,8 @@ export default function Footer() {
 						<h1 className="text-[150px] leading-[115px] lg:text-[130px] lg:leading-[98px] md:text-[100px] md:leading-[75px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] font-semibold font-FoundersGrotesk text-secondry uppercase">
 							<TextMask>{phrase1}</TextMask>
 						</h1>
-						<div className="pt-[50px]">
+
+						{/* <div className="pt-[50px]">
 							<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
 								S:
 							</h1>
@@ -74,6 +75,7 @@ export default function Footer() {
 									/>
 								))}
 							</div>
+
 						</div>
 						<div className="pt-[50px] flex gap-x-[20px]">
 							<h1 className="paragraph font-medium font-NeueMontreal text-secondry">
@@ -84,35 +86,40 @@ export default function Footer() {
 								href="/"
 								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
 							/>
-						</div>
+						</div> */}
+
 					</div>
 				</div>
 			</div>
 			<div className="w-full pt-[40px] pb-[30px] flex justify-between sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px]">
 				<div className="w-1/2 sm:w-full xm:w-full">
 					<Link href={"/"}>
-						<Image
+
+						{/* <Image
 							src={logo}
 							alt="ochi logo"
 							width={70}
 							height={70}
-						/>
+						/> */}
+
 					</Link>
 				</div>
 				<div className="w-1/2 h-full flex gap-[10px] justify-between items-end sm:w-full xm:w-full sm:flex-col xm:flex-col sm:items-start xm:items-start">
 					<div className="flex sm:flex-col xm:flex-col gap-[10px]">
 						<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-							© ochi design 2024.
+							© Porfolio Design 2025.
 						</h1>
-						<LinkHover
+
+						{/* <LinkHover
 							title="Legal Terms"
 							href="/"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
-						/>
+						/> */}
+
 					</div>
 					<div>
 						<LinkHover
-							title="Website by Zain"
+							title="Website by A MAN"
 							href="/"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
@@ -122,3 +129,6 @@ export default function Footer() {
 		</footer>
 	);
 }
+
+
+

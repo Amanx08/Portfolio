@@ -14,17 +14,17 @@ export const navbarItems = [
    },
    {
       id: 3,
-      title: "About us",
+      title: "About me",
       href: "/ochi-team",
    },
-   {
-      id: 4,
-      title: "Insights",
-      href: "/insights",
-   },
+   // {
+   //    id: 4,
+   //    title: "Insights",
+   //    href: "/insights",
+   // },
    {
       id: 5,
-      title: "Contact us",
+      title: "Contact me",
       href: "/contact",
    },
 ];
@@ -426,42 +426,42 @@ export const projectItem = [
 export const serviceProcessItems = [
    {
       id: 1,
-      phase: "01. Phase",
-      name: "Discovery",
+      phase: "STEP 01.",
+      name: "Strategy and Content Planning",
       src: phase1,
-      review: "We define your goals, get to know your audience, and understand the context. Through a process of exploration, investigation, and research, we seek the insights that inform our future decisions.",
+      review: "Define your site's goal, target audience, and core message. Outline the necessary pages (sitemap) and gather all high-quality text, images, and media needed for the entire site's build.",
       button: "read"
    },
    {
       id: 2,
-      phase: "02. Phase",
-      name: "Storytelling",
+      phase: "STEP 02.",
+      name: "Technical Setup and Architecture",
       src: phase2,
-      review: "Based on the answers, previous drafts, and additional research, we will develop a foundation of the deck — the structure of the presentation. We build a tone of voice, flow, and narrative to engage our audience. Here we will win people's minds.",
+      review: "Choose a domain name and register it. Select a robust web hosting provider and install your preferred platform, whether it is a CMS like WordPress or a custom development framework.",
       button: "read"
    },
    {
       id: 3,
-      phase: "03. Phase",
-      name: "Design",
+      phase: "STEP 03.",
+      name: "Design and User Experience (UX/UI)",
       src: phase3,
-      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the presentation wins people's hearts and leaves a perfect long-lasting impression.",
+      review: "Develop the visual appearance, choosing consistent fonts and colors to reflect your brand. Create the structure and layouts (wireframes) that guarantee easy navigation and a positive user experience on all devices.",
       button: "read"
    },
    {
       id: 4,
-      phase: "04. Phase",
-      name: "Feedback",
+      phase: "STEP 04.",
+      name: "Development and Functionality",
       src: phase4,
-      review: "We want to stay on the same page. Hence, each phase wraps up presenting the work to you to collect and implement your feedback if such appears.",
+      review: "Build all pages, integrate your prepared content, and install necessary features like contact forms, e-commerce capabilities, or booking systems. Ensure all code is clean, stable, and secure.",
       button: "read"
    },
    {
       id: 5,
-      phase: "05. Phase",
-      name: "Delivery",
+      phase: "STEP 05.",
+      name: "Testing, SEO, and Launch",
       src: phase5,
-      review: "We will carefully collect and prepare all the project files to ensure smooth future use.",
+      review: "Thoroughly test every link and function across mobiles and desktops. Apply basic Search Engine Optimization (SEO) settings, fix final bugs, and then publish the finished website for public visibility and access.",
       button: "read"
    },
 ];
@@ -469,62 +469,72 @@ export const serviceProcessItems = [
 export const serviceClientsItem = [
    {
       id: 1,
-      website: "Karman Ventures",
+      website: "Personal Portfolio",
       href: "https://www.ochi.design",
       title: "Services:",
-      name: "William Barnes",
+      name: "Yugal kishore Sharma",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "Aman was transparent about the time and stages of the project. The final Portfolio website is high quality, and I feel confident about how he hand-held the client through the process. I feel like I can introduce him to anyone who needs to build an impactful landing page from scratch; he manages the client experience effectively from concept to launch. 5/5",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "Responsive Web Design",
             href: "/services",
          },
          {
             id: 2,
-            title: "sales deck",
-            href: "services",
+            title: "Frontend Development",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Single Page Applications",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Website Maintenance & Support",
+            href: "/services",
          },
       ]
    },
    {
       id: 2,
-      website: "Planetly",
+      website: "DropNest",
       href: "https://www.planetly.com",
       title: "Services:",
-      name: "Nina Walloch",
+      name: "Nishant Sharma",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "I needed a professional, highly reliable e-commerce storefront that could handle seasonal traffic, and Aman delivered beyond expectations. The site design is clean, intuitive, and beautiful for our customers. His dedication as a solo developer meant every critical detail was handled with precision. Our platform is now rock-solid and ready to scale.",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Full-Stack Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "CMS",
             href: "services",
          },
          {
             id: 3,
-            title: "branded template",
+            title: "Website Maintenance & Support",
             href: "services",
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "Web Performance Optimization",
             href: "services",
          },
          {
             id: 5,
-            title: "product presentation",
+            title: "Product presentation",
             href: "services",
          },
          {
             id: 6,
-            title: "sales deck",
+            title: "SEO Optimization",
             href: "services",
          },
          {
@@ -536,202 +546,341 @@ export const serviceClientsItem = [
    },
    {
       id: 3,
-      website: "Workiz Easy",
+      website: "Corefolio",
       href: "https://www.workiz.com",
       title: "Services:",
-      name: "Tormer levy",
+      name: "Himanshi Sharma",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "Aman brought a certain level of professionalism into our web presence that we were lacking before. When I showed our teams the portfolio website he developed, they were amazed—the final product was exactly what we needed to create a better user experience for our clients and prospects.",
       links: [
          {
             id: 1,
-            title: "compony presentation",
+            title: "Single Page Applications",
             href: "/services",
          },
          {
             id: 2,
-            title: "onboarding presentation",
+            title: "Responsive Web Design",
             href: "services",
          },
          {
             id: 3,
-            title: "policy deck and playbook",
+            title: "SEO Optimization",
             href: "services",
          },
          {
             id: 4,
-            title: "redesign",
+            title: "Redesign",
             href: "services",
          },
          {
             id: 5,
-            title: "sales deck",
+            title: "Maintenance & support",
             href: "services",
          },
       ]
    },
    {
       id: 4,
-      website: "Premium Blend",
+      website: "Craftory",
       href: "https://www.premium-blend.com",
       title: "Services:",
-      name: "Elien Kim",
+      name: "Akhil Saregta",
       src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
+      review: "Aman is truly changing the landscape of web development! Fast, effective, and a great human that listened to every detail of our needs. Creating our landing pages with his guidance brings so much joy and ease. We proudly showcase his design in our marketing campaigns.",
       links: [
          {
             id: 1,
-            title: "branded template",
+            title: "Responsive Web Design",
             href: "/services",
          },
          {
             id: 2,
-            title: "illustration",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 5,
-      website: "Hypercare Systems",
-      href: "https://www.hypercare-systems.com",
-      title: "Services:",
-      name: "Brendon Goss",
-      src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
-      title: "Services:",
-      name: "Raff Labri",
-      src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
-      links: [
-         {
-            id: 1,
-            title: "branded template deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
-      title: "Services:",
-      name: "Stefan Strohmer",
-      src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "investor deck",
+            title: "3D Modeling & Animation",
             href: "services",
          },
          {
             id: 3,
-            title: "product presentation",
+            title: "SEO Optimization",
             href: "services",
          },
          {
             id: 4,
-            title: "review",
+            title: "Redesign",
             href: "services",
          },
          {
-            id: 2,
-            title: "sales deck",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "Jacki Smith",
-      src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
-      links: [
-         {
-            id: 1,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
+            id: 5,
+            title: "Maintenance & support",
             href: "services",
          },
       ]
    },
+   // {
+   //    id: 5,
+   //    website: "Boat Rental Hub",
+   //    href: "https://www.hypercare-systems.com",
+   //    title: "Services:",
+   //    name: "Template Project",
+   //    src: client05,
+   //    review: "The service received from Aman was absolutely first-class. His close attention to detail, and deep thought in terms of **UX/narrative flow**, and **aesthetics** completely exceeded my expectations. Especially loved and appreciated the creation of **visually stunning website sections** and advice around the look and feel. I will definitely continue working with Aman. I cannot recommend him highly enough.",
+   //    links: [
+   //       {
+   //          id: 1,
+   //          title: "investor deck",
+   //          href: "/services",
+   //       },
+   //       {
+   //          id: 2,
+   //          title: "startup pitch",
+   //          href: "services",
+   //       },
+   //    ]
+   // },
+   // {
+   //    id: 6,
+   //    website: "Officevibe",
+   //    href: "https://www.officevibe.com",
+   //    title: "Services:",
+   //    name: "Raff Labri",
+   //    src: client06,
+   //    review: "Aman has an impressive understanding of what’s needed to do an **effective website**. The stakeholders at work said it’s the best, most complete **digital portfolio** they’ve ever seen. Aman delivered more than I was expecting and we were really surprised with the quality of his work. Will work with him again for sure!",
+   //    links: [
+   //       {
+   //          id: 1,
+   //          title: "branded template deck",
+   //          href: "/services",
+   //       },
+   //    ]
+   // },
+   // {
+   //    id: 7,
+   //    website: "Orderlion",
+   //    href: "https://www.orderlion.com",
+   //    title: "Services:",
+   //    name: "Stefan Strohmer",
+   //    src: client07,
+   //    review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day. Aman delivered exactly that! He is a very talented designer who understands the real business problem we are trying to solve and iterates over many drafts to achieve the **best possible website outcome**. We are looking for a long-lasting working relationship!",
+   //    links: [
+   //       {
+   //          id: 1,
+   //          title: "agency",
+   //          href: "/services",
+   //       },
+   //       {
+   //          id: 2,
+   //          title: "investor deck",
+   //          href: "services",
+   //       },
+   //       {
+   //          id: 3,
+   //          title: "product presentation",
+   //          href: "services",
+   //       },
+   //       {
+   //          id: 4,
+   //          title: "review",
+   //          href: "services",
+   //       },
+   //       {
+   //          id: 2,
+   //          title: "sales deck",
+   //          href: "services",
+   //       },
+   //    ]
+   // },
+   // {
+   //    id: 8,
+   //    website: "Black Book",
+   //    href: "https://www.blackbookapp.co",
+   //    title: "Services:",
+   //    name: "Jacki Smith",
+   //    src: client08,
+   //    review: "Aman nailed what our product was all about. We found his ability to workshop all the angles and take on feedback for our **landing page** was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the **final website**. All was handled well and professionally.",
+   //    links: [
+   //       {
+   //          id: 1,
+   //          title: "review",
+   //          href: "/services",
+   //       },
+   //       {
+   //          id: 2,
+   //          title: "startup pitch",
+   //          href: "services",
+   //       },
+   //    ]
+   // },
 ];
+
+// export const serviceCapaybilitiesItem = [
+//    {
+//       id: 1,
+//       src1: capaybilities1,
+//       title1: "Development Tools",
+//       review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
+//       subTitle: "Projects",
+//       links1: [
+//          {
+//             id: 1,
+//             title: "investor deck",
+//             href: "/"
+//          },
+//          {
+//             id: 2,
+//             title: "startup pitch",
+//             href: "/"
+//          },
+//       ],
+//       src2: capaybilities2,
+//       title2: "SELL PRODUCTS:",
+//       links2: [
+//          {
+//             id: 1,
+//             title: "business proposal",
+//             href: "/"
+//          },
+//          {
+//             id: 2,
+//             title: "company presentation",
+//             href: "/"
+//          },
+//          {
+//             id: 3,
+//             title: "product presentation",
+//             href: "/"
+//          },
+//          {
+//             id: 4,
+//             title: "sales deck",
+//             href: "/"
+//          },
+//          {
+//             id: 5,
+//             title: "service deck",
+//             href: "/"
+//          },
+//       ]
+//    },
+//    {
+//       id: 2,
+//       src1: capaybilities3,
+//       title1: "HIRE & MANAGE PEOPLE:",
+//       review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
+//       subTitle: "Projects",
+//       links1: [
+//          {
+//             id: 1,
+//             title: "big news deck",
+//             href: "/"
+//          },
+//          {
+//             id: 2,
+//             title: "branded template",
+//             href: "/"
+//          },
+//          {
+//             id: 3,
+//             title: "onboarding presentation",
+//             href: "/"
+//          },
+//          {
+//             id: 4,
+//             title: "policy deck & playbook",
+//             href: "/"
+//          },
+//          {
+//             id: 5,
+//             title: "progress report",
+//             href: "/"
+//          },
+//       ],
+//       src2: capaybilities4,
+//       title2: "ADDITIONAL:",
+//       links2: [
+//          {
+//             id: 1,
+//             title: "agency",
+//             href: "/"
+//          },
+//          {
+//             id: 2,
+//             title: "branding",
+//             href: "/"
+//          },
+//          {
+//             id: 3,
+//             title: "corporate training",
+//             href: "/"
+//          },
+//          {
+//             id: 4,
+//             title: "redesign",
+//             href: "/"
+//          },
+//          {
+//             id: 5,
+//             title: "review",
+//             href: "/"
+//          },
+//       ]
+//    },
+// ];
 
 export const serviceCapaybilitiesItem = [
    {
       id: 1,
       src1: capaybilities1,
-      title1: "RAISE FUNDS:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
-      subTitle: "Projects",
+      title1: "FRONT-END DEVELOPMENT:",
+      review: "We build high-performance, responsive interfaces that drive engagement. Specializing in modern frameworks and optimized code, we ensure your user experience is fast, fluid, and accessible across all devices.",
+      subTitle: "Technologies",
       links1: [
          {
             id: 1,
-            title: "investor deck",
+            title: "React.js",
             href: "/"
          },
          {
             id: 2,
-            title: "startup pitch",
-            href: "/"
-         },
-      ],
-      src2: capaybilities2,
-      title2: "SELL PRODUCTS:",
-      links2: [
-         {
-            id: 1,
-            title: "business proposal",
-            href: "/"
-         },
-         {
-            id: 2,
-            title: "company presentation",
+            title: "Next.js",
             href: "/"
          },
          {
             id: 3,
-            title: "product presentation",
+            title: "JQuery",
             href: "/"
          },
          {
             id: 4,
-            title: "sales deck",
+            title: "Three.js (3D Graphics)",
             href: "/"
          },
          {
             id: 5,
-            title: "service deck",
+            title: "JavaScript ",
+            href: "/"
+         },
+      ],
+      src2: capaybilities2,
+      title2: "STYLING & Animation:",
+      links2: [
+         {
+            id: 1,
+            title: "Tailwind CSS",
+            href: "/"
+         },
+         {
+            id: 2,
+            title: "SASS / SCSS",
+            href: "/"
+         },
+         {
+            id: 3,
+            title: "Bootstrap",
+            href: "/"
+         },
+         {
+            id: 5,
+            title: "GSAP (Animation)",
             href: "/"
          },
       ]
@@ -739,62 +888,57 @@ export const serviceCapaybilitiesItem = [
    {
       id: 2,
       src1: capaybilities3,
-      title1: "HIRE & MANAGE PEOPLE:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
-      subTitle: "Projects",
+      title1: "BACK-END & DATABASE:",
+      review: "We engineer robust and scalable server-side architecture for secure data handling and complex logic. This ensures reliable performance, efficient API integration, and future-proof functionality for your application.",
+      subTitle: "Technologies",
       links1: [
          {
             id: 1,
-            title: "big news deck",
+            title: "Node.js / Express.js",
             href: "/"
          },
          {
             id: 2,
-            title: "branded template",
+            title: "SQL",
             href: "/"
          },
          {
             id: 3,
-            title: "onboarding presentation",
+            title: "MongoDB",
             href: "/"
          },
          {
             id: 4,
-            title: "policy deck & playbook",
+            title: "REST APIs",
             href: "/"
          },
          {
             id: 5,
-            title: "progress report",
+            title: "XML / JSON",
             href: "/"
          },
       ],
       src2: capaybilities4,
-      title2: "ADDITIONAL:",
+      title2: "Design and No-code Tool:",
       links2: [
          {
             id: 1,
-            title: "agency",
+            title: "WordPress",
             href: "/"
          },
          {
             id: 2,
-            title: "branding",
+            title: "Wix Studio",
             href: "/"
          },
          {
             id: 3,
-            title: "corporate training",
+            title: "Figma (UI/UX)",
             href: "/"
          },
          {
-            id: 4,
-            title: "redesign",
-            href: "/"
-         },
-         {
-            id: 5,
-            title: "review",
+            id: 3,
+            title: "Canva",
             href: "/"
          },
       ]
@@ -819,9 +963,9 @@ export const expectationsItems = [
    {
       id: 3,
       title1: "02",
-      subTitle1: "Ukrainian Business",
+      subTitle1: "Comprehensive Discovery",
       btn: "read",
-      para1: "We are a Ukrainian-born business working mainly with international clients. And as Ukrainians, we offer an unshakable workforce that's proven it can handle anything. The international arena was our focus from the start. And each working day, we showed up as genuine innovators and Ukraine ambassadors. Part of our mission is to promote our homeland by doing the most incredible work we can, each project at a time.",
+      para1: "I start by asking essential questions to deeply understand your goals, business model, and specific niche. This thorough discovery process is the cornerstone of success and informs every technical and design decision. Finding clarity and data ensures the project foundation is solid before any code is written.",
    },
    {
       id: 4,
