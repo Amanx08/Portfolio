@@ -90,245 +90,150 @@ export const footernavbarItems = [
 export const clientsItem = [
    {
       id: 1,
-      website: "Karman Ventures",
+      website: "Personal Portfolio",
       href: "https://www.ochi.design",
       title: "Services:",
-      name: "William Barnes",
+      name: "Yugal kishore Sharma",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "Aman was transparent about the time and stages of the project. The final Portfolio website is high quality, and I feel confident about how he hand-held the client through the process. I feel like I can introduce him to anyone who needs to build an impactful landing page from scratch; he manages the client experience effectively from concept to launch. 5/5",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "Responsive Web Design",
             href: "/services",
          },
          {
             id: 2,
-            title: "sales deck",
+            title: "Frontend Development",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Single Page Applications",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Website Maintenance & Support",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      website: "Planetly",
+      website: "DropNest",
       href: "https://www.planetly.com",
       title: "Services:",
-      name: "Nina Walloch",
+      name: "Nishant Sharma",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "I needed a professional, highly reliable e-commerce storefront that could handle seasonal traffic, and Aman delivered beyond expectations. The site design is clean, intuitive, and beautiful for our customers. His dedication as a solo developer meant every critical detail was handled with precision. Our platform is now rock-solid and ready to scale.",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Full-Stack Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "big news deck",
-            href: "/services",
+            title: "CMS",
+            href: "services",
          },
          {
             id: 3,
-            title: "branded template",
-            href: "/services",
+            title: "Website Maintenance & Support",
+            href: "services",
          },
          {
             id: 4,
-            title: "investor deck",
-            href: "/services",
+            title: "Web Performance Optimization",
+            href: "services",
          },
          {
             id: 5,
-            title: "product presentation",
-            href: "/services",
+            title: "Product presentation",
+            href: "services",
          },
          {
             id: 6,
-            title: "sales deck",
-            href: "/services",
+            title: "SEO Optimization",
+            href: "services",
          },
          {
             id: 7,
             title: "startup pitch",
-            href: "/services",
+            href: "services",
          },
       ]
    },
    {
       id: 3,
-      website: "Workiz Easy",
+      website: "Corefolio",
       href: "https://www.workiz.com",
       title: "Services:",
-      name: "Tormer levy",
+      name: "Himanshi Sharma",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "Aman brought a certain level of professionalism into our web presence that we were lacking before. When I showed our teams the portfolio website he developed, they were amazed—the final product was exactly what we needed to create a better user experience for our clients and prospects.",
       links: [
          {
             id: 1,
-            title: "compony presentation",
+            title: "Single Page Applications",
             href: "/services",
          },
          {
             id: 2,
-            title: "onboarding presentation",
-            href: "/services",
+            title: "Responsive Web Design",
+            href: "services",
          },
          {
             id: 3,
-            title: "policy deck and playbook",
-            href: "/services",
+            title: "SEO Optimization",
+            href: "services",
          },
          {
             id: 4,
-            title: "redesign",
-            href: "/services",
+            title: "Redesign",
+            href: "services",
          },
          {
             id: 5,
-            title: "sales deck",
-            href: "/services",
+            title: "Maintenance & support",
+            href: "services",
          },
       ]
    },
    {
       id: 4,
-      website: "Premium Blend",
+      website: "Craftory",
       href: "https://www.premium-blend.com",
       title: "Services:",
-      name: "Elien Kim",
+      name: "Akhil Saregta",
       src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
+      review: "Aman is truly changing the landscape of web development! Fast, effective, and a great human that listened to every detail of our needs. Creating our landing pages with his guidance brings so much joy and ease. We proudly showcase his design in our marketing campaigns.",
       links: [
          {
             id: 1,
-            title: "branded template",
+            title: "Responsive Web Design",
             href: "/services",
          },
          {
             id: 2,
-            title: "illustration",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 5,
-      website: "Hypercare Systems",
-      href: "https://www.hypercare-systems.com",
-      title: "Services:",
-      name: "Brendon Goss",
-      src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
-      title: "Services:",
-      name: "Raff Labri",
-      src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
-      links: [
-         {
-            id: 1,
-            title: "branded template deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
-      title: "Services:",
-      name: "Stefan Strohmer",
-      src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "investor deck",
-            href: "/services",
+            title: "3D Modeling & Animation",
+            href: "services",
          },
          {
             id: 3,
-            title: "product presentation",
-            href: "/services",
+            title: "SEO Optimization",
+            href: "services",
          },
          {
             id: 4,
-            title: "review",
-            href: "/services",
+            title: "Redesign",
+            href: "services",
          },
          {
-            id: 2,
-            title: "sales deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "Jacki Smith",
-      src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
-      links: [
-         {
-            id: 1,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 9,
-      website: "Trawa Energy",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "David Buddy",
-      src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
-      links: [
-         {
-            id: 1,
-            title: "branding",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "startup pitch",
-            href: "/services",
+            id: 5,
+            title: "Maintenance & support",
+            href: "services",
          },
       ]
    },
@@ -357,7 +262,7 @@ export const projectItem = [
             title: "SEO",
             href: "services",
          },
-      
+
       ]
    },
    {

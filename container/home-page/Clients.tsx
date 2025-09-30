@@ -88,6 +88,7 @@ export default function Clients() {
 								</AnimatePresence>
 							))}
 						</div>
+
 						<div className="w-[40%] sm:w-auto xm:w-auto">
 							<AnimatePresence>
 								{activeAccordion === item.id && (
@@ -121,9 +122,10 @@ export default function Clients() {
 					</div>
 				</div>
 			))}
-			<div className="padding-x pt-[80px]">
+			
+			{/* <div className="padding-x pt-[80px]">
 				<Ratings />
-			</div>
+			</div> */}
 		</section>
 	);
 }

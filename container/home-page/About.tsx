@@ -40,7 +40,7 @@ export default function About() {
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
-							<div className="w-[80%] sm:w-[60%] xm:w-[60%]">
+							<div className="w-[80%] sm:w-[100%] xm:w-[100%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
 									I don’t just build websites — I create digital experiences that tell your story, earn trust, and move people to action. Whether it’s for a bold startup pitch, an online store, or a growing brand, your site should work hard and look good doing it.
 								</p>

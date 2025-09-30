@@ -14,12 +14,13 @@ export default function MobileNav() {
 		<>
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
 				<Link href={"/"}>
-					<Image
+					{/* <Image
 						src={logo}
 						alt="ochi logo"
 						width={70}
 						height={70}
-					/>
+					/> */}
+					<div className="text-3xl">AMAN</div>
 				</Link>
 				<HiOutlineMenuAlt4
 					onClick={() => setToggle(true)}
@@ -36,12 +37,13 @@ export default function MobileNav() {
 						className="fixed top-0 bottom-0 right-0 z-50 w-full min-h-screen flex justify-end items-end flex-col bg-secondry">
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#f1f1f155] padding-x">
 							<Link href={"/"}>
-								<Image
+								{/* <Image
 									src={mobileLogo}
 									alt="ochi logo"
 									width={70}
 									height={70}
-								/>
+								/> */}
+								AMAN
 							</Link>
 							<IoMdClose
 								onClick={() => setToggle(false)}
