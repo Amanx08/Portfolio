@@ -72,7 +72,7 @@ export default function About() {
 
 			<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 				<div className="flex flex-col gap-[30px]">
-					<Heading title="About Me:" />
+					<Heading title="About:" />
 					<div
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
 						onMouseEnter={() => setHovered(true)}

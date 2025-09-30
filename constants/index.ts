@@ -9,12 +9,12 @@ export const navbarItems = [
    },
    {
       id: 2,
-      title: "Our work",
+      title: "Work",
       href: "/presentation",
    },
    {
       id: 3,
-      title: "About me",
+      title: "About",
       href: "/about",
    },
    // {
@@ -24,7 +24,7 @@ export const navbarItems = [
    // },
    {
       id: 5,
-      title: "Contact me",
+      title: "Contact",
       href: "/contact",
    },
 ];
@@ -67,22 +67,22 @@ export const footernavbarItems = [
    },
    {
       id: 3,
-      title: "Our work",
+      title: "Work",
       href: "presentation",
    },
    {
       id: 4,
-      title: "About us",
+      title: "About",
       href: "about",
    },
-   {
-      id: 5,
-      title: "Insights",
-      href: "insights",
-   },
+   // {
+   //    id: 5,
+   //    title: "Insights",
+   //    href: "insights",
+   // },
    {
       id: 6,
-      title: "Contact us",
+      title: "Contact",
       href: "contact",
    },
 ];
@@ -1353,7 +1353,7 @@ export const FaqItems = [
    },
    {
       id: 2,
-      question: "Do you animate presentations?",
+      question: "Do you animate projects?",
       title: "Description",
       description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
       links: [

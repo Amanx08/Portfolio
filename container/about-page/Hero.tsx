@@ -43,7 +43,7 @@ export default function Hero() {
 						<div className="w-full flex justify-between  padding-x sm:flex-col xm:flex-col gap-[20px]">
 							<div className="w-[10%] sm:w-full xm:w-full">
 								<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-									About me:
+									About:
 								</h3>
 							</div>
 							<div className="w-[48%] flex justify-between sm:w-full xm:w-full sm:flex-col xm:flex-col gap-[20px]">
