@@ -5,13 +5,13 @@ export { default as awwwards } from './awwwards.svg';
 export { default as aboutImg } from './aboutImg.webp';
 export { default as aboutImg2 } from './me_bg.png';
 export { default as videoImg } from './videoImg.jpeg';
-export { default as project1 } from './project1.webp';
-export { default as project2 } from './project2.webp';
-export { default as project3 } from './project3.webp';
-export { default as project4 } from './project4.webp';
-export { default as project5 } from './project5.webp';
-export { default as project6 } from './project6.webp';
-export { default as project7 } from './project7.webp';
+export { default as project1 } from './project1.png';
+export { default as project2 } from './project2.png';
+export { default as project3 } from './project3.png';
+export { default as project4 } from './project4.png';
+export { default as project5 } from './project5.png';
+export { default as project6 } from './project6.png';
+export { default as project7 } from './project7.png';
 export { default as project8 } from './project8.webp';
 export { default as project9 } from './project9.webp';
 export { default as client01 } from './client01.png';
@@ -29,7 +29,7 @@ export { default as brand03 } from './brand03.png';
 export { default as publication1 } from './publication1.jpeg';
 export { default as publication2 } from './publication2.png';
 export { default as publication3 } from './publication3.png';
-export { default as ochiside } from './ok.png';
+export { default as ochiside } from './bat.jpg';
 export { default as eyeplay } from './eyeplay.svg';
 export { default as contactHero } from './contacthhero.jpg';
 
@@ -55,7 +55,7 @@ export { default as insights3 } from './insights3.jpeg';
 export { default as latest1 } from './latest1.png';
 export { default as latest2 } from './latest2.jpeg';
 
-// ochi-team
+// about
 export { default as backgroundAbout } from './background-about.jpeg';
 export { default as Team1 } from './team1.jpeg';
 export { default as Team2 } from './team2.jpeg';

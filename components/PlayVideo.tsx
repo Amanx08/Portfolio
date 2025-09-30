@@ -42,7 +42,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 	const mq = useTransform(scrollYProgress, [0, 1], [0, -400]);
 	return (
 		<div
-			className="w-full relative overflow-hidden cursor-pointer"
+			className="w-full h-screen bg-slate-600 relative overflow-hidden cursor-pointer"
 			ref={container}
 			onClick={togglePlay}>
 			<div
@@ -50,12 +50,14 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 				data-scroll
 				data-scroll-speed="-.8"
 				data-scroll-section>
-				<video
+
+				{/* <video
 					className="w-full h-full"
 					loop
 					ref={videoRef}
 					src={videosrc}
-				/>
+				/> */}
+
 				<motion.div
 					className={`w-full absolute top-[50%] transform translate-y-[-50%] gap-[30px] flex items-center justify-center ${
 						isPlaying && "hidden"

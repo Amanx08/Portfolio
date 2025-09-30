@@ -15,7 +15,7 @@ export const navbarItems = [
    {
       id: 3,
       title: "About me",
-      href: "/ochi-team",
+      href: "/about",
    },
    // {
    //    id: 4,
@@ -73,7 +73,7 @@ export const footernavbarItems = [
    {
       id: 4,
       title: "About us",
-      href: "ochi-team",
+      href: "about",
    },
    {
       id: 5,
@@ -338,35 +338,31 @@ export const clientsItem = [
 export const projectItem = [
    {
       id: 1,
-      title: "fyde",
+      title: "corefolio",
       href: "/case/",
       src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Single Page Applications",
             href: "/services",
          },
          {
             id: 2,
-            title: "copywriting",
-            href: "/services",
+            title: "Responsive Design",
+            href: "services",
          },
          {
             id: 3,
-            title: "sales deck",
-            href: "/services",
+            title: "SEO",
+            href: "services",
          },
-         {
-            id: 4,
-            title: "slides design",
-            href: "/services",
-         },
+      
       ]
    },
    {
       id: 2,
-      title: "vise",
+      title: "Rental Hub",
       href: "/case/",
       src: project2,
       links: [
@@ -384,7 +380,7 @@ export const projectItem = [
    },
    {
       id: 3,
-      title: "trawa",
+      title: "shareit",
       href: "/case/",
       src: project3,
       links: [
@@ -407,7 +403,7 @@ export const projectItem = [
    },
    {
       id: 4,
-      title: "premiumblend",
+      title: "covid",
       href: "/case/",
       src: project4,
       links: [
@@ -1013,133 +1009,85 @@ export const achiveItems = [
 export const presentationProjectItem = [
    {
       id: 1,
-      title: "fyde",
-      src: project1,
+      title: "corefolio",
       href: "/case/",
+      src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Single Page Applications",
             href: "/services",
          },
          {
             id: 2,
-            title: "copywriting",
+            title: "Responsive Design",
             href: "services",
          },
          {
             id: 3,
-            title: "sales deck",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "slides design",
+            title: "SEO",
             href: "services",
          },
       ]
    },
    {
       id: 2,
-      title: "trawa",
-      src: project3,
+      title: "Rental Hub",
       href: "/case/",
+      src: project2,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "e commerce",
             href: "/services",
          },
          {
             id: 2,
-            title: "design research",
-            href: "services",
-         },
-         {
-            id: 3,
-            title: "investor deck",
-            href: "services",
+            title: "full stack",
+            href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "premium blend",
-      src: project4,
+      title: "shareit",
       href: "/case/",
+      src: project3,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Blog",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Full stack",
+            href: "/services",
+         },
+         {
+            id: 3,
+            title: "Social Media App website",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "planetly",
-      src: project5,
+      title: "covid",
       href: "/case/",
+      src: project4,
       links: [
          {
             id: 1,
-            title: "brand template",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "big news deck",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "branded template",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 5,
-            title: "policy deck & playbook",
-            href: "/services",
-         },
-         {
-            id: 6,
-            title: "sales deck",
+            title: "Global Data Metrics",
             href: "/services",
          },
       ]
    },
    {
       id: 5,
-      title: "black box",
-      src: project8,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "redesign",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "review",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 6,
-      title: "vise",
-      src: project2,
+      title: "bytebridge",
+      src: project5,
       href: "/case/",
       links: [
          {
@@ -1149,65 +1097,53 @@ export const presentationProjectItem = [
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "full stack",
+            href: "/services",
+         },
+         {
+            id: 3,
+            title: "Data-Led",
+            href: "/services",
+         },
+      ]
+   },
+   {
+      id: 6,
+      title: "Blogy",
+      src: project6,
+      href: "/case/",
+      links: [
+         {
+            id: 1,
+            title: "Blog",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Full stack",
             href: "services",
          },
       ]
    },
    {
       id: 7,
-      title: "soft start",
-      src: project9,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "brand template",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "sales desc",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 8,
-      title: "officevibe",
+      title: "AMAN",
       src: project7,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "brand template",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 9,
-      title: "workiz easy",
-      src: project6,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "onboarding presentation",
+            title: "Portfolio",
             href: "/services",
          },
          {
             id: 2,
-            title: "policy deck & playbook",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "sales deck",
+            title: "Personal",
             href: "/services",
          },
       ]
    },
+
 ];
 
 
