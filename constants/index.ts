@@ -1239,101 +1239,117 @@ export const aboutPartberItems = [
 export const FaqItems = [
    {
       id: 1,
-      question: "How many iterations the project includes?",
+      question: "How many revisions are included in a project?",
       title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
+      description: "Client satisfaction is key, and I aim to deliver results you're happy with. I include a set number of revisions to keep the project moving efficiently while ensuring your feedback is implemented.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
+            description: "Most projects include up to 2–3 rounds of revisions. This helps us stay focused and avoid endless tweaks while still refining the work based on your input."
          },
          {
             id: 2,
             title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
+            description: "Additional revisions beyond the initial scope are always possible but may involve extra time and cost. We’ll align expectations early to avoid surprises."
          },
       ],
       button: "read"
    },
    {
       id: 2,
-      question: "Do you animate projects?",
+      question: "Do you handle both design and development?",
       title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
+      description: "yes, I handle both the visual design and development, depending on the project needs.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "You don't need to hire separate teams. I ensure the design and code align perfectly, making the process more efficient and cohesive."
+         },
+         {
+            id: 2,
+            title: 2,
+            description: "If your project needs advanced backend features or integrations, I can either build them or collaborate with trusted developers if needed."
          },
       ],
       button: "read"
    },
    {
       id: 3,
-      question: "Do you join forces with other agencies?",
+      question: "Do you collaborate with other creatives or teams?",
       title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
+      description: "I typically work solo, but I’m always open to collaborating — especially for larger projects where bringing in extra hands",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "I have a small network of trusted professionals I can bring in when a project calls for skills beyond design or front-end development."
+         },
+         {
+            id: 2,
+            title: 2,
+            description: "If you're already working with a team, I can seamlessly integrate into your process to keep things smooth and efficient."
          },
       ],
       button: "read"
    },
    {
       id: 4,
-      question: "I want to become a part of the team! Do you hire?",
+      question: "Are you available for long-term or retainer work?",
       title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      description: "Yes — in addition to one-off projects, I take on long-term or retainer work with clients who need ongoing design or dev support.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
+            description: "Retainers are a great option if you have a constant flow of design or dev needs and want to secure time in my schedule each month."
          },
          {
             id: 2,
             title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
+            description: "Let's talk about what you need regularly — I’ll suggest a retainer model that fits your budget and workload."
          },
       ],
       button: "read"
    },
    {
       id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
+      question: "What if I’m not sure what I need yet?",
       title: "Description",
-      description: "The short answer is yes.",
+      description: "No worries! I help clients define their goals and translate ideas into digital experiences — whether that’s a website, product, or landing page.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
+            description: "We can start with a discovery call or workshop to clarify your needs and outline a strategy before jumping into design or code."
          },
          {
             id: 2,
             title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
+            description: "Even if you’re early in the process, I can guide you with feedback, sketches, or roadmapping sessions to get you moving in the right direction."
          },
       ],
       button: "read"
    },
    {
       id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
+      question: "Do you offer support after the project is done?",
       title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
+      description: "Yes — I provide support options after launch to help with maintenance, updates, or training if needed.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "After project delivery, I offer a 14–30 day support window depending on the project. Beyond that, I’m available for ongoing support or updates as needed."
+         },
+         {
+            id: 2,
+            title: 2,
+            description: "I can provide clear documentation or train your team, so you’re fully equipped to manage future updates on your own—saving time, reducing dependency, and keeping your site running smoothly."
          },
       ],
       button: "read"
    },
 ];
+
