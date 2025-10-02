@@ -36,7 +36,7 @@ export default function Navbar() {
 							height={70}
 						/> */}
 
-						<h1 className="text-xl">AMAN</h1>
+						<h1 className="text-4xl">AMAN</h1>
 
 					</Link>
 				</div>

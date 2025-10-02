@@ -12,7 +12,9 @@ export default function Footer() {
 			<div className="w-full flex justify-between sm:flex-col xm:flex-col">
 				<div className="flex flex-col justify-between sm:w-full xm:w-full w-1/2">
 					<h1 className="text-[150px] leading-[115px] lg:text-[130px] lg:leading-[98px] md:text-[100px] md:leading-[75px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] font-semibold font-FoundersGrotesk text-secondry uppercase">
-						<TextMask>{phrase}</TextMask>
+						<Link href={"/"}>
+							<TextMask>{phrase}</TextMask>
+						</Link>
 					</h1>
 				</div>
 				<div className="h-full flex flex-col justify-between sm:w-full xm:w-full w-1/2">

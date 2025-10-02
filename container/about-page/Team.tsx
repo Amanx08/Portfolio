@@ -18,7 +18,7 @@ export default function Team() {
 							<div>
 								<Image
 									src={logo}
-									alt="ochi-logo"
+									alt="logo"
 									width={50}
 									height={50}
 								/>
@@ -26,7 +26,7 @@ export default function Team() {
 							<div>
 								<Image
 									src={Team1}
-									alt="ochi-logo"
+									alt="logo"
 									width={300}
 									height={300}
 									className="rounded-[10px] sm:w-full xm:w-full"

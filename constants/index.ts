@@ -10,7 +10,7 @@ export const navbarItems = [
    {
       id: 2,
       title: "Work",
-      href: "/presentation",
+      href: "/work",
    },
    {
       id: 3,
@@ -68,7 +68,7 @@ export const footernavbarItems = [
    {
       id: 3,
       title: "Work",
-      href: "presentation",
+      href: "work",
    },
    {
       id: 4,
@@ -91,7 +91,7 @@ export const clientsItem = [
    {
       id: 1,
       website: "Personal Portfolio",
-      href: "https://www.ochi.design",
+      href: "/",
       title: "Services:",
       name: "Yugal kishore Sharma",
       src: client01,
@@ -122,7 +122,7 @@ export const clientsItem = [
    {
       id: 2,
       website: "DropNest",
-      href: "https://www.planetly.com",
+      href: "/",
       title: "Services:",
       name: "Nishant Sharma",
       src: client02,
@@ -150,16 +150,11 @@ export const clientsItem = [
          },
          {
             id: 5,
-            title: "Product presentation",
-            href: "services",
-         },
-         {
-            id: 6,
             title: "SEO Optimization",
             href: "services",
          },
          {
-            id: 7,
+            id: 6,
             title: "startup pitch",
             href: "services",
          },
@@ -168,7 +163,7 @@ export const clientsItem = [
    {
       id: 3,
       website: "Corefolio",
-      href: "https://www.workiz.com",
+      href: "/",
       title: "Services:",
       name: "Himanshi Sharma",
       src: client03,
@@ -204,7 +199,7 @@ export const clientsItem = [
    {
       id: 4,
       website: "Craftory",
-      href: "https://www.premium-blend.com",
+      href: "",
       title: "Services:",
       name: "Akhil Saregta",
       src: client04,
@@ -249,7 +244,7 @@ export const projectItem = [
       links: [
          {
             id: 1,
-            title: "Single Page Applications",
+            title: "Portfolio",
             href: "/services",
          },
          {
@@ -273,12 +268,12 @@ export const projectItem = [
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Fullstack",
             href: "/services",
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "Responsive",
             href: "/services",
          },
       ]
@@ -291,17 +286,17 @@ export const projectItem = [
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Brand identity",
             href: "/services",
          },
          {
             id: 2,
-            title: "design research",
+            title: "Social media",
             href: "/services",
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "Blog",
             href: "/services",
          },
       ]
@@ -314,7 +309,7 @@ export const projectItem = [
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Data Visualization",
             href: "/services",
          },
       ]
@@ -371,7 +366,7 @@ export const serviceClientsItem = [
    {
       id: 1,
       website: "Personal Portfolio",
-      href: "https://www.ochi.design",
+      href: "/",
       title: "Services:",
       name: "Yugal kishore Sharma",
       src: client01,
@@ -402,7 +397,7 @@ export const serviceClientsItem = [
    {
       id: 2,
       website: "DropNest",
-      href: "https://www.planetly.com",
+      href: "/",
       title: "Services:",
       name: "Nishant Sharma",
       src: client02,
@@ -448,7 +443,7 @@ export const serviceClientsItem = [
    {
       id: 3,
       website: "Corefolio",
-      href: "https://www.workiz.com",
+      href: "/",
       title: "Services:",
       name: "Himanshi Sharma",
       src: client03,
@@ -484,7 +479,7 @@ export const serviceClientsItem = [
    {
       id: 4,
       website: "Craftory",
-      href: "https://www.premium-blend.com",
+      href: "/",
       title: "Services:",
       name: "Akhil Saregta",
       src: client04,
@@ -850,46 +845,53 @@ export const expectationsItems = [
    {
       id: 1,
       title1: "01",
-      subTitle1: "Comunication",
+      subTitle1: "Clear Communication",
       btn: "read",
-      para1: "The relationship with the clients is our top priority. We put extra effort into keeping mutual respect, honesty, and clarity in the conversation. For each client, we develop a project view site in Notion to track milestones and see the thinking behind steps. You always know what and when we do, as you feel confident in the results we bring.",
+      para1:
+         "Communication is at the core of every successful project. I keep things transparent and straightforward — no jargon, no surprises. Each client gets a shared Notion page to track progress, milestones, and the thinking behind every decision. You'll always know what's happening and why.",
    },
    {
       id: 2,
-      title1: "04",
-      subTitle1: "One point of contact",
-      btn: "read",
-      para1: "Every project is led by Ihor, the agency's founder and creative director. He ensures the whole project flows from start to finish. He puts together the right creative team for your specific project. You will always have this direct contact person available to speak your business language. He takes care of translating your business goals into the language of design for the team."
-   },
-   {
-      id: 3,
       title1: "02",
       subTitle1: "Comprehensive Discovery",
       btn: "read",
-      para1: "I start by asking essential questions to deeply understand your goals, business model, and specific niche. This thorough discovery process is the cornerstone of success and informs every technical and design decision. Finding clarity and data ensures the project foundation is solid before any code is written.",
+      para1:
+         "Every project starts with deep discovery. I ask the right questions to understand your goals, business model, and audience. This phase builds the foundation for technical choices and design decisions, helping avoid guesswork later in the process.",
    },
    {
-      id: 4,
-      title1: "05",
-      subTitle1: "Constantly Improving",
-      btn: "read",
-      para1: "We are passionate about creating industry-shifting presentations. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
-   },
-   {
-      id: 5,
+      id: 3,
       title1: "03",
       subTitle1: "Holistic Approach",
       btn: "read",
-      para1: "We simply ask lots of questions to understand your goals, business, and niche you operate. Our discovery process is essential as it informs our decisions throughout the project. Once we firmly define the goal, it is incredible to move towards that goal. That's why so much of our work is discovery, research, and asking good questions. The answers we get and the data we find go into the foundation of project success.",
+      para1:
+         "I look at the bigger picture — your business goals, your users, and the ecosystem you're working in. Design and code are tools to solve real problems, not just create visuals. I aim to build solutions that align with your long-term vision.",
+   },
+   {
+      id: 4,
+      title1: "04",
+      subTitle1: "Single Point of Contact",
+      btn: "read",
+      para1:
+         "When you work with me, you’re always in direct contact with the person building your product. No handoffs or miscommunication. I manage everything from planning and design to development and deployment.",
+   },
+   {
+      id: 5,
+      title1: "05",
+      subTitle1: "Always Improving",
+      btn: "read",
+      para1:
+         "I'm committed to staying current in both tech and strategy. I regularly invest time into learning, refining workflows, and experimenting with new tools — so clients get solutions that are efficient, scalable, and future-ready.",
    },
    {
       id: 6,
       title1: "06",
-      subTitle1: "Limited Amount of Client",
+      subTitle1: "Focused Project Load",
       btn: "read",
-      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the presentation as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
+      para1:
+         "I only take on a limited number of projects at a time. This means when I commit to your project, it gets my full attention. I choose projects where I believe in the product and can make a meaningful impact.",
    },
 ];
+
 
 export const achiveItems = [
    {

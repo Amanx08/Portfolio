@@ -18,7 +18,7 @@ export default function Result() {
 									Feedback
 								</p>
 								<p className="paragraph font-NeueMontreal text-secondry">
-									“OCHI brought certain level of
+									“i brought certain level of
 									<br className="sm:hidden xm:hidden" /> professionalism into
 									our presentations that
 									<br className="sm:hidden xm:hidden" /> we were lacking before.
