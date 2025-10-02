@@ -167,7 +167,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Himanshi Sharma",
       src: client03,
-      review: "Aman brought a certain level of professionalism into our web presence that we were lacking before. When I showed our teams the portfolio website he developed, they were amazed—the final product was exactly what we needed to create a better user experience for our clients and prospects.",
+      review: "Aman brought a certain level of professionalism into our web presence that we were lacking before. When I showed my friends the portfolio website he developed, they were amazed—the final product was exactly what we needed to create a better user experience for our clients and prospects.",
       links: [
          {
             id: 1,
@@ -239,7 +239,7 @@ export const projectItem = [
    {
       id: 1,
       title: "corefolio",
-      href: "/case/",
+      href: "/work/",
       src: project1,
       links: [
          {
@@ -263,7 +263,7 @@ export const projectItem = [
    {
       id: 2,
       title: "Rental Hub",
-      href: "/case/",
+      href: "/work/",
       src: project2,
       links: [
          {
@@ -281,7 +281,7 @@ export const projectItem = [
    {
       id: 3,
       title: "shareit",
-      href: "/case/",
+      href: "/work/",
       src: project3,
       links: [
          {
@@ -304,7 +304,7 @@ export const projectItem = [
    {
       id: 4,
       title: "covid",
-      href: "/case/",
+      href: "/work/",
       src: project4,
       links: [
          {
@@ -447,7 +447,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Himanshi Sharma",
       src: client03,
-      review: "Aman brought a certain level of professionalism into our web presence that we were lacking before. When I showed our teams the portfolio website he developed, they were amazed—the final product was exactly what we needed to create a better user experience for our clients and prospects.",
+      review: "Aman brought a certain level of professionalism into our web presence that we were lacking before. When I showed my friends the portfolio website he developed, they were amazed—the final product was exactly what we needed to create a better user experience for our clients and prospects.",
       links: [
          {
             id: 1,
@@ -917,7 +917,7 @@ export const presentationProjectItem = [
    {
       id: 1,
       title: "corefolio",
-      href: "/case/",
+      href: "/work/",
       src: project1,
       links: [
          {
@@ -940,7 +940,7 @@ export const presentationProjectItem = [
    {
       id: 2,
       title: "Rental Hub",
-      href: "/case/",
+      href: "/work/",
       src: project2,
       links: [
          {
@@ -958,7 +958,7 @@ export const presentationProjectItem = [
    {
       id: 3,
       title: "shareit",
-      href: "/case/",
+      href: "/work/",
       src: project3,
       links: [
          {
@@ -981,7 +981,7 @@ export const presentationProjectItem = [
    {
       id: 4,
       title: "covid",
-      href: "/case/",
+      href: "/work/",
       src: project4,
       links: [
          {
@@ -995,7 +995,7 @@ export const presentationProjectItem = [
       id: 5,
       title: "bytebridge",
       src: project5,
-      href: "/case/",
+      href: "/work/",
       links: [
          {
             id: 1,
@@ -1018,7 +1018,7 @@ export const presentationProjectItem = [
       id: 6,
       title: "Blogy",
       src: project6,
-      href: "/case/",
+      href: "/work/",
       links: [
          {
             id: 1,
@@ -1036,7 +1036,7 @@ export const presentationProjectItem = [
       id: 7,
       title: "AMAN",
       src: project7,
-      href: "/case/",
+      href: "/work/",
       links: [
          {
             id: 1,
@@ -1133,7 +1133,7 @@ export const workizItem = [
       id: 1,
       title: "office vibe",
       src: project7,
-      href: "/case/",
+      href: "/work/",
       links: [
          {
             id: 1,
@@ -1146,7 +1146,7 @@ export const workizItem = [
       id: 2,
       title: "planetly",
       src: project5,
-      href: "/case/",
+      href: "/work/",
       links: [
          {
             id: 1,
