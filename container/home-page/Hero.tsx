@@ -13,12 +13,13 @@ export default function Hero() {
 
 	return (
 		<section
-			className="w-full h-screen sm:mb-[-10px] xm:mb-[-10px]"
+			className="w-full h-screen sm:h-[90vh] xm:h-[80vh] sm:mb-[-10px] xm:mb-[-10px]"
 			data-scroll
 			data-scroll-speed="-.3">
 			<div className="w-full h-full flex flex-col justify-between">
 				<div />
-				<div className="w-full flex flex-col justify-between h-[75vh] sm:h-[80vh] xm:h-[80vh]">
+				<div className="w-full flex flex-col justify-between h-[75vh] sm:h-[60vh] xm:h-[60vh]">
+				{/* <div className="w-full flex flex-col justify-between h-[75vh]"> */}
 					<div className="w-full flex justify-between gap-[20px] pl-[50px] md:pl-[30px] sm:pl-[20px] xm:pl-[20px]">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
@@ -72,7 +73,7 @@ export default function Hero() {
 						</div> */}
 					</div>
 					{/* <div className="w-full flex flex-col h-[22vh] border-t border-[#21212155] py-[20px] sm:mb-[80px] xm:mb-[80px] gap-[30px]"> */}
-						{/* <div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">
+					{/* <div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">
 							<div className="w-[50%] xm:w-full sm:w-full">
 								<p className="paragraph font-NeueMontreal text-secondry">
 									For public and private companies
@@ -107,21 +108,21 @@ export default function Hero() {
 
 
 
-						<div className="w-full flex items-center overflow-hidden justify-center xm:hidden sm:hidden">
-							<motion.p
-								initial={{ y: "-100%", opacity: 0 }}
-								animate={{ y: "100%", opacity: 0.5 }}
-								transition={{
-									duration: 1.8,
-									repeat: Infinity,
-									ease: [0.3, 0.86, 0.36, 0.95],
-								}}
-								className="paragraph opacity-50 font-NeueMontreal text-secondry">
-								scroll down
-							</motion.p>
-						</div>
+					<div className="w-full flex items-center overflow-hidden justify-center xm:hidden sm:hidden">
+						<motion.p
+							initial={{ y: "-100%", opacity: 0 }}
+							animate={{ y: "100%", opacity: 0.5 }}
+							transition={{
+								duration: 1.8,
+								repeat: Infinity,
+								ease: [0.3, 0.86, 0.36, 0.95],
+							}}
+							className="paragraph opacity-50 font-NeueMontreal text-secondry">
+							scroll down
+						</motion.p>
 					</div>
 				</div>
+			</div>
 			{/* </div> */}
 		</section>
 	);
